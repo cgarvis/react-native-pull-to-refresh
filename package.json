@@ -1,7 +1,7 @@
 {
-  "name": "react-refresh-control",
-  "version": "2.0.4",
-  "description": "A pull down to refresh control for react native.",
+  "name": "react-native-pull-to-refresh",
+  "version": "1.0.0",
+  "description": "A pull to refresh control for react native.",
   "keywords": [
     "react-component",
     "react-native",
@@ -9,13 +9,13 @@
     "refresh",
     "control"
   ],
-  "author": "Shuangzuan",
+  "author": "Christopher Garvis <cgarvis@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
-    "react-native": "^0.5.0"
+    "react-native": "^0.5"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:Shuangzuan/RCTRefreshControl.git"
+    "url": "git@github.com:cgarvis/react-native-pull-to-refresh.git"
   }
 }

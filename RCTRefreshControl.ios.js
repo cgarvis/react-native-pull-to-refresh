@@ -1,5 +1,5 @@
 /**
- * @providesModule RCTRefreshControl
+ * @providesModule PullToRefresh
  * @flow
  */
 'use strict';
@@ -32,7 +32,7 @@ var RCTRefreshControl = {
       tintColor: configs.tintColor,
       activityIndicatorViewColor: configs.activityIndicatorViewColor
     };
-    
+
     NativeRCTRefreshControl.configure(nodeHandle, options, (error) => {
       if (!error) {
         callbacks[nodeHandle] = callback;
